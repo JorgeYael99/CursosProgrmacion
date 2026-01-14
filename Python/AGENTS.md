@@ -180,12 +180,20 @@ No automated test framework is implemented or needed for this educational conten
 - Estructuras secuenciales
 - **DOMINADO:** Manipulación completa de cadenas (12 lecciones)
 
+#### **📡 Módulo de EntradaDatos (COMPLETO)**
+- **Lecciones Dominadas:** 4/4 lecciones + 1 ejercicio integrado
+- **Métodos Cubiertos:**
+  - Entrada: `input()`, `int()`, `float()`
+  - Conversiones: `str()`, `bool()` correcto
+  - Validación: `.strip()`, `.title()`, `.lower()`
+  - Proyectos: Sistemas interactivos completos
+
 #### **🟡 NIVEL INTERMEDIO** (Lecciones 6-10 Udemy)
 - Estructuras condicionales
 - Bucles y iteraciones
 - Funciones básicas
 - Listas y tuplas
-- **EN PROGRESO:** Sistemas aplicados (hoteles, tiendas, seguridad)
+- **COMPLETO:** Sistemas aplicados (hoteles, tiendas, seguridad)
 
 #### **🔴 NIVEL AVANZADO** (Lecciones 11-15 Udemy)
 - Diccionarios y sets
@@ -304,8 +312,12 @@ No automated test framework is implemented or needed for this educational conten
 - `ejercicio_busc_subc.py` - Búsqueda de subcadenas ✅
 - `ejercicio_integrado_cadenas.py` - 24 retos completos ✅
 - `generador_email.py` - Proyecto real con slicing avanzado ✅
+- `registro_estudiantes.py` - Sistema integrado I/O + Cadenas (15 puntos, 15min, 100% preciso) ✅
 
 #### **📊 Nivel Alcanzado: INTERMEDIO-AVANZADO**
+- **Tiempo Ejercicio:** 15 minutos (entrada datos) ✅
+- **Precisión:** 100% funcional (15/15 puntos) ✅
+- **Integración:** Cadenas + EntradaDatos dominados ✅
 - **Comprensión:** 95% de conceptos de cadenas
 - **Aplicación:** Creativa y eficiente
 - **Sintaxis:** Limpia y consistente
@@ -330,7 +342,8 @@ No automated test framework is implemented or needed for this educational conten
 ```
 Mes 1: Principiante absoluto → Fundamentos básicos
 Mes 2: Manipulación de cadenas → DOMINIO COMPLETO
-Mes 3: Siguiente nivel → Estructuras de control
+Mes 3: Entrada/Salida de datos → DOMINIO COMPLETO (15min, 100%)
+Mes 4: Siguiente nivel → Estructuras de control
 ```
 
 ### **🎯 Objetivos Inmediatos**

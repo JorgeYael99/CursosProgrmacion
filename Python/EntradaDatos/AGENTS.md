@@ -21,14 +21,18 @@ python sistema_empleados.py          # sistema interactivo
 ## Estructura del Módulo de Entrada/Salida
 
 ```
-/EntradaDatos/                         # Módulo completo de I/O (4 archivos + 1 subcarpeta)
+/EntradaDatos/                         # Módulo completo de I/O (4 archivos + 2 subcarpetas)
 ├── entrada_datos.py                   # input() básico con conversiones
 ├── conversion_tipos.py                # int(), str(), float() conversiones
 ├── error_comun_bool.py                # Error común con bool()
 ├── funcion_bool.py                    # Función bool() con todos los tipos
-└── EjerciciosCurso/                   # Proyectos aplicados (2 archivos)
-    ├── sistema_empleados.py           # Sistema con input() básico
-    └── resolucion_sistema_empleados.py # Sistema con validación mejorada
+├── EjerciciosCurso/                   # Proyectos aplicados (2 archivos)
+│   ├── sistema_empleados.py           # Sistema con input() básico
+│   └── resolucion_sistema_empleados.py # Sistema con validación mejorada
+└── EjerciciosOpencode/                # Ejercicios del estudiante (3 archivos)
+    ├── registro_estudiantes.py        # Sistema integrado I/O + Cadenas ✅
+    ├── resolucion_registro_estudiantes.py # Solución con mejores prácticas ✅
+    └── solucion_referencia_registro.py # Versión limpia de referencia ✅
 ```
 
 ## Mapa de Aprendizaje por Tema
@@ -215,6 +219,11 @@ python sistema_empleados.py          # sistema interactivo
 - **bool() con None:** `bool(None)` → False ✅
 - **Error común:** `bool("False")` → True (identificado y entendido) ✅
 
+#### **🔄 Métodos de Validación (COMPLETO)** ✅
+- **Limpieza de datos:** `.strip()`, `.lower()`, `.title()` ✅
+- **Validación de email:** `"@" in email and "." in email` ✅
+- **Manejo de booleanos:** `respuesta == "sí"` ✅
+
 #### **🏆 Sistemas Integrados (COMPLETO)**
 - **Sistema básico:** `sistema_empleados.py` ✅
 - **Sistema mejorado:** `resolucion_sistema_empleados.py` con validación avanzada ✅
@@ -224,9 +233,14 @@ python sistema_empleados.py          # sistema interactivo
 #### **🎯 Sistemas Interactivos**
 - `sistema_empleados.py` - Sistema completo de gestión de empleados ✅
 - `resolucion_sistema_empleados.py` - Sistema con validación robusta ✅
+- `registro_estudiantes.py` - Sistema integrado con Cadenas (15 puntos, 15min, 100% preciso) ✅
+- `resolucion_registro_estudiantes.py` - Validación con `.strip()`, `.title()`, email ✅
+- `solucion_referencia_registro.py` - Versión limpia de referencia ✅
 
 #### **📊 Nivel Alcanzado: EXPERTO EN ENTRADA/SALIDA**
-- **Dominio Técnico:** 95% de conceptos de I/O
+- **Dominio Técnico:** 98% de conceptos de I/O + métodos de Cadenas ✅
+- **Métricas:** Tiempo 15min, Precisión 100%, Autonomía completa ✅
+- **Métodos Adicionales:** `.strip()`, `.title()`, validación de email ✅
 - **Aplicación:** Robusta y eficiente en validación
 - **Sintaxis:** Limpia y consistente en sistemas interactivos
 - **Resolución:** Totalmente autónoma
@@ -236,6 +250,9 @@ python sistema_empleados.py          # sistema interactivo
 - **Uso experto de conversiones y validación**
 - **Manejo robusto de diferentes tipos de entrada**
 - **Construcción de sistemas interactivos funcionales**
+- **Integración con Cadenas para validación robusta** ✅
+- **Creación de sistemas con limpieza profesional de datos** ✅
+- **Resolución autónoma de problemas complejos** ✅
 - **Pensamiento centrado en el usuario**
 
 ### **📅 Siguiente Nivel: ESTRUCTURAS DE CONTROL**
@@ -251,6 +268,13 @@ Semana 3-4: Intermedio → Conversiones y validación
 Semana 5-6: Avanzado → Sistemas interactivos completos
 Semana 7-8: Experto → Validación robusta y manejo de errores
 ```
+
+### **🎯 Referencia del Último Ejercicio Completado:**
+- **Archivo:** `registro_estudiantes.py` (15 retos)
+- **Tiempo:** 15 minutos (meta cumplida)
+- **Precisión:** 15/15 puntos (100%)
+- **Nuevos Métodos:** `.strip()`, `.title()`, validación de email
+- **Integración:** Cadenas + EntradaDatos aplicados completamente
 
 ### **🎯 Objetivos Inmediatos**
 - Aplicar dominio de I/O a estructuras condicionales
