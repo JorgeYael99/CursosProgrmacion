@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page random</title>
+</head>
+<body>
+    <header>
+    <h1>Hola</h1>
+    
+    <nav>
+        <a href="#Mis Tecnologias">Proyectos realizados</a>
+        <a href="#Sitio web">Sitio web Corporativo</a> <!--enlaces internos-->
+        <a 
+        href="https://twitch.tv/midudev"
+        target="_blank"
+        rel="noreferrer"
+        >Twitch</a>
+    </nav>
+
+    <a download href="/images/ozzy.jpg">
+    <img id="ph" height="200" title="Foto" alt="una foto simple" src="/HTML/images/ozzy.jpg">
+    </a>
+
+</header>
+<main>
+    <h2 id="Mis Tecnologias">Proyectos realizados</h2>
+    <aside>
+        <header>
+            <h3>Mis tecnologías favoritas</h3>
+        </header>
+        <ol type="1" start="10">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li value="6">JavaScript</li>
+            <li>Python</li>
+        </ol>
+    </aside>
+
+    <section>
+        <article>
+            <header>
+                <h4>Sitio web Corporativo</h4>
+            </header>
+            <p>
+                Desarrollo de un sitio web corporativo                
+            </p>
+            <footer>
+                <small>Copyright derechos reservados</small>
+            </footer>
+        </article>
+        <button>Haz click aqui</button>
+    </section>
+    <section>
+        <h2>Formulario de contacto</h2>
+
+
+
+        <form method="post" action="/">
+
+            <fieldset>                
+                <legend>Información personal</legend>
+                <div>
+                <label >Nombre: 
+                <input type="text" id="name" name="name" placeholder="eje: Jorge Yael" required>
+                </label>
+                </div>
+
+                <label>Email: 
+                <input type="email" id="email" name="mail" placeholder="hola@hola.com" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Información adicional</legend>
+                <label>Telefono
+                    <input type="tel" name="tel" id="tel" placeholder="eje. 5562629898" required pattern="[0-9]{10}" 
+
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Otros</legend>
+
+                <div>
+                <label for="why">¿Por qué quieres contactar</label>
+                <select name="why" id="why">
+                    <option value="1">Trabajo</option>
+                    <option value="2">duda</option>
+                    <option value="3">mas información</option>
+                </select>                
+                </div>
+
+                <div>
+                    <label for="terms">¿Aceptas los terminos?</label>
+                    <input type="checkbox" name="terms" id="terms" required>
+                </div>
+
+                <div>
+                    <datalist id="languages">
+                        <option value="JavaScript"></option>
+                        <option value="Python"></option>
+                        <option value="Java"></option>
+                        <option value="C#"></option>                        
+                    </datalist>
+                    <label >¿Con qué lenguaje quieres que te ayude?
+                        <input list="languages" name="languages">
+                    </label>
+                </div>
+
+            </fieldset>
+
+            <input type="submit" value="Enviar contacto">
+            
+        </form>
+
+
+    </section>
+
+    <div role="button">Haz click aqui</div>
+</main>
+<footer>ITIZ 2026-1
+    <a href="mailto:jorge@gmail.com"><p>enviame un correo</p></a>
+    <a href="tel: 5616781451"><p>Llama por telefono</p></a>
+    <a href="https://wa.me/525512345678?text=Hola%20Jorge" target="_blank">
+  Envíame un Whats
+</a>
+</footer>
+
+</body>
+</html>
