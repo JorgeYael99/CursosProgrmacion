@@ -4,16 +4,21 @@
 // Total: 1300
 
 // precios de las flores
-let rosePrice = 8;
-let lilyPrice = 10;
-let tulip = 2;
+const rosePrice = 8;
+const lilyPrice = 10;
+const tulipPrice = 2;
 // cantidad de flores
 let numberOfRose = 70;
 let numberOfLily= 50;
 let numberOfTulip= 120;
-
+// Valor total de las flores cada una
 let totalValueRose = rosePrice * numberOfRose;
-let totalValueLily = lilyPrice * numberOfTulip;
-let totalValueTulip = tulip * numberOfTulip;
+let totalValueLily = lilyPrice * numberOfLily;
+let totalValueTulip = tulipPrice * numberOfTulip;
+
+let total = totalValueRose + totalValueLily + totalValueTulip;
 
 console.log("Rose - Unit price:", rosePrice,", Quantity:",numberOfRose,", Value:",totalValueRose);
+console.log("Lily - Unit price:", lilyPrice,", Quantity:",numberOfLily,", Value:",totalValueLily);
+console.log("Tulip - Unit price:", tulipPrice,", Quantity:",numberOfTulip,", Value:",totalValueTulip)
+console.log("Total:",total);
