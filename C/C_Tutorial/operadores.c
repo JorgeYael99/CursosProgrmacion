@@ -82,6 +82,10 @@ int main(){
     a &=10;
     printf("a: %d\n",a);
 
+    int b= 7;
+    b |= 5;
+    printf("%d\n",b);
+
 
 
     
