@@ -6,3 +6,7 @@ __pycache__/
 *.pdf
 *.zip
 *.rar
+target/
+Cargo.lock
+Cargo.toml
+rust/rust-book-es/
