@@ -46,7 +46,7 @@ int main(){
     // 1 persona salio
     peopleInRoom--;
 
-    peopleInRoom++;
+    // peopleInRoom++;
 
     printf("Personas entrando: %d\n",peopleInRoom);
 
@@ -85,6 +85,10 @@ int main(){
     int b= 7;
     b |= 5;
     printf("%d\n",b);
+
+    int c = 0;
+    c ^=1;
+    printf("%d\n",c);
 
 
 
