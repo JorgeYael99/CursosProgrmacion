@@ -7,6 +7,5 @@ __pycache__/
 *.zip
 *.rar
 target/
-Cargo.lock
-Cargo.toml
+
 rust/rust-book-es/
