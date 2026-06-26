@@ -4,7 +4,7 @@ fn main() {
     println!("The value of x is: {x}");
     x=6;
     println!("The new value of x is: {x}");
-// Constantes: no se pueden convertir en utables nunca jamas
+// Constantes: no se pueden convertir en mutables nunca jamas
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
     println!("Constante de 3 horas en segundos: {THREE_HOURS_IN_SECONDS}");
 

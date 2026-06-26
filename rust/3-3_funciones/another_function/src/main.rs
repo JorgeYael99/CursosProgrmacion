@@ -1,4 +1,9 @@
 fn main() {
+    /*
+     *  Sentencias: son instrucciones que realizan alguna acción y no devuelven un valor.
+     *  Expresiones: evalúan a un valor resultante.
+     */
+
     println!("Hello, world!");
     another_function();
     an_fun(5);

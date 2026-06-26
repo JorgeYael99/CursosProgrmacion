@@ -1,6 +1,19 @@
 use core::f64;
 
 fn main() {
+    
+    /*
+    Tamaño	Signed	Unsigned
+    8-bit	i8	    u8
+    16-bit	i16	    u16
+    32-bit	i32	    u32
+    64-bit	i64	    u64
+    128-bit	i128	u128
+ Dependiente 
+ de la 
+ arquitectura	isize	usize     
+     */
+      
     // Enteros: u8 para numeros que no requieran ser negativos
     // i8 para los numeros que vayan a ser negativos
     println!("####Enteros####");
@@ -10,6 +23,16 @@ fn main() {
 
     // Literales
     println!("####Literales####");
+    /*
+    Literales numéricos	    Ejemplo
+    Decimal	                98_222
+    Hex	                    0xff
+    Octal	                0o77
+    Binario	                0b1111_0000
+    Byte (u8 solamente)	    b'A'  
+    */
+
+
     // Decimal (base 10)
     let decimal = 98_222;        // la barra baja es solo para leer mejor, equivale a 98222
 
@@ -40,7 +63,9 @@ fn main() {
     // Flotantes
     println!("####Flotantes####");
     let _d3 = 9.1;
+    let _d4:f32=3.0;
     println!("{_d3}");
+    println!("{_d4}");
 
 
     // Operaciones numericas
