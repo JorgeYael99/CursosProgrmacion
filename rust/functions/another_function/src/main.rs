@@ -1,6 +1,5 @@
 fn main() {
     println!("Hello, world!");
-
     another_function();
     an_fun(5);
     print_labeled_mesurement(5, 'h');

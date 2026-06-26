@@ -28,9 +28,19 @@
 #include <stdio.h>
 
 int main() {
+    double precio_base = 450.75;
+    const double IVA_PORCENTAJE = 0.21;
+    double precio_total = precio_base+(IVA_PORCENTAJE*precio_base);
+    double prod_1= 180.0+(IVA_PORCENTAJE*180.0);
+    double prod_2= 240.0+(IVA_PORCENTAJE*240.0);
 
-    // --- tu código aquí ---
+    printf("Precio base: $%.2lf\n",precio_base);
+    printf("IVA: %.2lf\n", IVA_PORCENTAJE);
+    printf("Precio total: %.2lf\n",precio_total);
 
+    printf("IVA de 3 productos: $%.2lf $%.2lf $%.2lf",precio_total, prod_1, prod_2);
 
+    
+    
     return 0;
 }

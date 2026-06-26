@@ -1,3 +1,8 @@
+# ╔══════════════════════════════════════════════════╗
+# ║   ⚠️  NO TOCAR EL CÓDIGO HASTA QUE YO LO INDIQUE  ║
+# ║   O QUE OPENCODE SUGIERA QUE DEBERÍA CAMBIARSE    ║
+# ╚══════════════════════════════════════════════════╝
+
 # learn_C — AGENTS.md
 
 ## Entorno
@@ -11,6 +16,7 @@
 - Sin Makefile, sin gestor de paquetes, sin tests, sin CI.
 - Código con comentarios bilingües (principalmente español, inglés en ejemplos).
 - No hay separación src/include ni estructura de proyecto más allá de archivos planos.
+- **Ejercicios**: todos los archivos de práctica y repaso van en `ejercicios/` (raíz del repo), organizados por tema.
 
 ## Comandos
 ```bash
@@ -24,15 +30,32 @@ clang -g archivo.c -o archivo && ./archivo
 gcc -Wall -Wextra -pedantic -g archivo.c -o archivo
 ```
 
+## Archivos en C_Tutorial/
+| Archivo | Tema W3Schools | Estado |
+|---|---|---|
+| `03_02_01_hola_mundo.c` | C Intro, Get Started, Syntax, Output | Completado |
+| `04_variables.c` | C Variables | Completado |
+| `05_dataTypes.c` | C Data Types | Completado |
+| `06_typeConversion.c` | C Type Conversion | Completado |
+| `07_constants.c` | C Constants | Completado |
+| `08_operadores.c` | C Operators | Completado |
+| `directivas.c` | C Constants (`#define`) | Completado |
+| `ejemploVariables.c` | C Variables (repaso) | Completado |
+| `x.c` | C Variables (repaso) | Completado |
+| `Ejemplos_C/tiposDatos_Variables_conversion.c` | Data Types & Variables (repaso) | Completado |
+
 ## Temas vistos (W3Schools)
-Hasta ahora cubiertos completamente:
+Cubiertos completamente:
 - C Intro, Get Started, Syntax (statements, code challenge)
 - C Output (Print Text, New Lines, code challenge)
 - C Comments
 - C Variables (Create, Format Specifiers, Change Values, Multiple, Names, Real-Life Examples, code challenge)
 - C Data Types (Data Types, Characters, Numbers, Decimal Precision, Memory Size, Real-Life Example, Extended Types, code challenge)
+- C Type Conversion (Implicit, Explicit)
+- C Constants (const, #define)
+- C Operators (Arithmetic, Assignment, Compound Assignment, Bitwise Assignment)
 
-Actuales: **C Type Conversion** (en progreso).
+Próximo tema (W3Schools): **C Booleans** → `09_booleans.c`
 
 ## Convenciones
 - Nombrar binarios igual que el `.c` (sin extensión). VS Code tasks.json ya lo hace automáticamente.

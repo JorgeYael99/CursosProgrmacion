@@ -2,7 +2,7 @@ fn main() {
     // 1. crear tupla
     let perfil = (27, 9.8, true);
     println!("{:?}",perfil);
-
+    
     // 2. acceso por indice
     let puntaje = perfil.1;
     println!("{:?}",puntaje);
