@@ -94,12 +94,12 @@ int main(){
 
     int age = 18;
 
-    printf("\"Equal to\"\n\tage == 18: %d\n",age==18); 
-    printf("\"Not equal\"\n\tage != 18: %d\n",age!=18); 
-    printf("\"Greater than\"\n\tage  > 18: %d\n",age>18);
-    printf("\"Less than\"\n\tage  < 18: %d\n",age<18);
-    printf("\"Greater than or equal to\"\n\tage <= 18: %d\n",age<=18); 
-    printf("\"Less than or equal to\"\n\tage >= 18: %d\n",age>=18); 
+    printf("\"Equal to\"\n\tage == (equal to) 18: %d\n",age==18); 
+    printf("\"Not equal\"\n\tage != (not equal) 18: %d\n",age!=18); 
+    printf("\"Greater than\"\n\tage > (greater than) 18: %d\n",age>18);
+    printf("\"Less than\"\n\tage  < (less than) 18: %d\n",age<18);
+    printf("\"Greater than or equal to\"\n\tage <= (less than or equal to) 18: %d\n",age<=18); 
+    printf("\"Less than or equal to\"\n\tage >= (grater than or equal to) 18: %d\n",age>=18); 
 
     //example
     int password = 6;
@@ -202,6 +202,7 @@ printf("El resultado del calculo que se asigno para las variables g = %d y h = %
     der >>=6;
     printf("valor variable \"der\" moviendo el 1 en binario a n espacios: %d\n",der);
 
+    // Ejemplo de uso de operadores logicos con operadores de comparacion 
     int year = 2100;
     printf("El año es bisisesto? %d\n",(year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
 
